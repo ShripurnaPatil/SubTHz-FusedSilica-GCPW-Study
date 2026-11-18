@@ -56,4 +56,4 @@ When sizing `60–120 GHz` interconnects on glass interposers, choosing the cent
 * 🛠️ **[`Model/`](Model/)** — 3D trimetric geometry view and `90 GHz` `|E|` / `|H|` wave propagation animations.
 * 📊 **[`plots/`](plots/)** — High-resolution S-parameter, impedance, phase, and group delay sweep plots.
 * ⚙️ **[`hfss_model/`](hfss_model/)** — Parameterized Ansys HFSS `.aedt` project file (ready to open and simulate).
-* 📈 **[`csv_data/`](csv_data/)** — Raw exported CSV sweep datasets (`50 µm` to `1100 µm`) from HFSS.
+
