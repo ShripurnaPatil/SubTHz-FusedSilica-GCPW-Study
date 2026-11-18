@@ -1,1 +1,38 @@
+# Simulation Plots: Baseline Verification & Parametric Width Sweeps (60–120 GHz)
+
+All full-wave Ansys HFSS simulation graphs for the `100 µm` fused-silica Grounded CPW (`L = 540.9 µm`, `50 µm` diameter TGVs at `120 µm` pitch).
+
+---
+
+## 1. Baseline 50 Ω GCPW Verification (`W = 119 µm, S = 20 µm`)
+
+### Return Loss (`|S11|`) & Insertion Loss (`|S21|`)
+<p align="center">
+  <img src="Terminal_SParam.png" width="650" alt="Baseline S11 and S21 across 60-120 GHz">
+</p>
+
+### Characteristic Port Impedance (`Port Zo`) & Electrical Length (`∠S21`)
+<p align="center">
+  <img src="Terminal_Zo.png" width="48%" alt="Port Impedance Zo across 60-120 GHz">
+  &nbsp;&nbsp;
+  <img src="angleS21vsFreq.png" width="48%" alt="Baseline Insertion Phase across 60-120 GHz">
+</p>
+
+---
+
+## 2. Optimetrics Parametric Width Sweep (`W = 50 µm` to `1100 µm`)
+
+### Conductor Attenuation & Power Transfer (`|S21|` vs. Frequency & Trace Width)
+<p align="center">
+  <img src="S21_vs_Freq.png" width="48%" alt="Insertion Loss vs Frequency across Trace Widths">
+  &nbsp;&nbsp;
+  <img src="S21_vs_Width.png" width="48%" alt="Insertion Loss vs Trace Width Sweet Spot">
+</p>
+
+### Phase Non-Linearity & Group Delay Dispersion
+<p align="center">
+  <img src="Phase_distortion_vs_Freq.png" width="48%" alt="Phase Distortion across Trace Widths">
+  &nbsp;&nbsp;
+  <img src="GroupDelay_vs_Freq.png" width="48%" alt="Group Delay Dispersion across Trace Widths">
+</p>
 
