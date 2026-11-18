@@ -19,7 +19,7 @@ Full-wave 3D electromagnetic simulation study analyzing conductor attenuation an
 ---
 
 ## 1. What is a Grounded CPW (GCPW)?
-A **Grounded Coplanar Waveguide (GCPW)** is a planar millimeter-wave transmission line consisting of a center signal strip separated by two narrow gaps (`S`) from top lateral ground planes, backed by a bottom ground plane beneath the dielectric substrate.
+A **Grounded Coplanar Waveguide (GCPW)** is a planar transmission line consisting of a center signal strip separated by two narrow gaps (`S`) from top lateral ground planes, backed by a bottom ground plane beneath the dielectric substrate.
 
 At sub-THz frequencies (`60–120 GHz`), vertical **Through-Glass Vias (TGVs)** stitch the top and bottom grounds together along both sides of the line. This via fence traps the electromagnetic fields tightly around the signal strip, preventing energy from leaking sideways into the substrate as parasitic parallel-plate modes.
 
